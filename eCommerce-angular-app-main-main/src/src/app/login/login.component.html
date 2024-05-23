@@ -1,0 +1,27 @@
+<div class="container login-container">
+    <div class="row">
+        <div class="col-md-4 login-form">
+            <h3>Login </h3>
+        <form  [formGroup]="loginForm" (ngSubmit)="isAuthenticated()">
+ 
+            <div >
+                <label for="exampleInputEmail1">Email address</label>
+                <input formControlName="email" type="text" class="form-control">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)">
+                    <div *ngIf="loginForm.get('email')?.errors" style="color: red;">Le email est invalide</div>
+                  </div>
+                  <div>
+                    <label for="exampleInputPassword1">Password</label>
+                    <input formControlName="password" type="text" class="form-control">
+                    </div>
+                    <div *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)">
+                        <div *ngIf="loginForm.get('password')?.errors" style="color: red;">Le password est invalide </div>
+                    </div>
+      
+        <button type="submit" class="btn btn-primary" >Login</button>
+        </form>
+        <a routerLink="/registeration">Non registred ?  Click to Signup</a>
+    </div>
+</div>

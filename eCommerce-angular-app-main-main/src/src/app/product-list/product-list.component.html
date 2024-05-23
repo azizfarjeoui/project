@@ -1,0 +1,28 @@
+<div class="container mt-5 position-relative">
+    
+    <div class="position-fixed top-1 z-2 bg-secondary rounded-3 end-0 cursor text-light "
+        (click)="redirectToDetailCart()">
+    </div>
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let product of products ; let i=index"  >
+            <div class="card mb-5" style="width: 18rem;">
+
+                <img [src]="product.images" class="card-img-top" [alt]="product.title">
+                <div class="card-body">
+                    <div [ngStyle]="{ color: product.stock === 0 ? 'red' : 'green' }">
+                        {{ product.stock === 0 ? 'Out of Stock' : 'In Stock' }}
+                    </div>
+                    <h5 class="card-title">{{product.title}}</h5>
+                    <div class="button-container">
+                        <a class="btn btn-dark" (click)="redirectToDetails(product.id)">Details</a>
+                        <a class="btn btn-dark ms-3" (click)="addToCart(product)">Add</a>
+                        <a class="btn btn-dark ms-3" class="btn btn-outline-danger" *ngIf="isAdmin" (click)="delete(product,i)" >Delete</a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

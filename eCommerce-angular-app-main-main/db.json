@@ -1,0 +1,122 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+      "createdAt": "2022-09-30T16:41:31.124Z"
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 0,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": "https://i.dummyjson.com/data/products/6/1.png",
+      "createdAt": "2022-09-30T11:57:53.372Z"
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": "",
+      "discountPercentage": "",
+      "rating": "",
+      "stock": "",
+      "brand": "",
+      "images": "https://i.ibb.co/QKhcKmf/airpods-apple-3rd-generation-puce-casque-h1-blanc.webp",
+      "category": "",
+      "id": 16
+    },
+    {
+      "title": "iphone 15",
+      "description": "Dynamic Island Écran HDR True Tone Large gamme de couleurs (P3) Haptic Touch Contraste 2 000 000:1 (standard) Luminosité maximale de 1 000 nits (standard) ; luminosité de pointe de 1 600 nits (HDR) ; luminosité de pointe de 2 000 nits (en extérieur) Revêtement oléophobe résistant aux traces de doigts Affichage simultané de plusieurs langues et jeux de caractères",
+      "price": "4200",
+      "discountPercentage": "0%",
+      "rating": "80%",
+      "stock": "1",
+      "brand": "apple ",
+      "images": "https://i.ibb.co/02mbsCW/Apple-i-Phone-15-lineup-hero-230912-inline-jpg-large.jpg",
+      "category": "mobile",
+      "id": "15"
+    },
+    {
+      "title": "Apple Airpods Max",
+      "description": "Les AirPods Max réinventent les écouteurs intra-auriculaires. Un pilote dynamique fournit un son immersif haute fidélité. Chaque détail, de la verrière aux coussins, a été conçu pour un ajustement exceptionnel. L'annulation active du bruit de pointe bloque le bruit extérieur, tandis que le mode Transparence le laisse entrer. Et l'audio spatial avec suivi dynamique de la tête offre un son de type cinéma qui vous entoure1.",
+      "price": "250",
+      "discountPercentage": "1%",
+      "rating": "99%",
+      "stock": "0",
+      "brand": "apple",
+      "images": "https://i.ibb.co/CHq7jDC/t-l-chargement.jpg",
+      "category": "headphone",
+      "id": "60"
+    },
+    {
+      "title": "Apple watch",
+      "description": "Le modèle GPS vous permet de prendre des appels et de répondre aux SMS depuis votre poignet Mesurez votre oxygène dans le sang avec un tout nouveau capteur et une toute nouvelle application Vérifiez votre rythme cardiaque avec l'application ECG L'écran Always-On Retina est 2,5 fois plus lumineux à l'extérieur lorsque votre poignet est baissé S6 SiP est jusqu'à 20 % plus rapide que la série 5",
+      "price": "300",
+      "discountPercentage": "0%",
+      "rating": "100%",
+      "stock": "2",
+      "brand": "apple",
+      "images": "https://i.ibb.co/mXn7GMG/t-l-chargement-1.jpg",
+      "category": "watch",
+      "id": "101"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Users": [
+    {
+      "id": "9",
+      "nom": "imen",
+      "prenom": "bara",
+      "email": "imim@gmail.com",
+      "password": "azerty",
+      "isadmin": false
+    },
+    {
+      "nom": "imen",
+      "prenom": "imen",
+      "email": "imenharbaoui111@gmail.com",
+      "password": "11111111",
+      "id": "537Wd0T",
+      "isadmin": true
+    },
+    {
+      "nom": "Mohamed",
+      "prenom": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "12345678",
+      "id": "58J4l3P"
+    }
+  ]
+}

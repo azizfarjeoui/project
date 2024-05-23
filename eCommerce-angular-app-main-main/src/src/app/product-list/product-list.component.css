@@ -1,0 +1,22 @@
+.top-1{
+    top: 10%;
+}
+.cursor{
+    cursor: pointer;
+}
+.card-des{
+    height: 80px;
+    overflow: hidden;
+}
+.card img{
+    height: 150px;
+}
+.button-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .button-container a {
+    margin-right: 10px; /* Adjust the margin between buttons as needed */
+  }
+  

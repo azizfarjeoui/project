@@ -1,0 +1,53 @@
+
+<div class="row">
+    <form  [formGroup]="productForm">
+    <div class="form-group">
+        <label>id</label>
+        <input type="text" placeholder="title" formControlName="id" class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>title</label>
+        <input type="text" placeholder="title" formControlName="title" class="form-control mt-3 mb-3" />
+    </div>
+
+    <div class="form-group">
+        <label>description</label>
+        <input type="text" placeholder="description" formControlName="description" class="form-control mt-3 mb-3" />
+    </div>
+
+    <div class="form-group">
+        <label>price</label>
+        <input type="text" placeholder="price" formControlName="price" class="form-control mt-3 mb-3" />
+    </div>
+   
+    <div class="form-group">
+        <label>DiscountPercentage</label>
+        <input type="text" placeholder="discountPercentage" formControlName="discountPercentage"
+            class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>rating</label>
+        <input type="text" placeholder="rating" formControlName="rating" class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>stock</label>
+        <input type="text" placeholder="stock" formControlName="stock" class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>brand</label>
+        <input type="text" placeholder="brand" formControlName="brand" class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>category</label>
+        <input type="text" placeholder="category" formControlName="category" class="form-control mt-3 mb-3" />
+    </div>
+    <div class="form-group">
+        <label>images</label>
+        <input type="text" placeholder="images" formControlName="images" class="form-control mt-3 mb-3" />
+    </div>
+    <button  type="submit" class="" (click)="ajouterProduct()">Ajouter</button>
+   
+
+</form>
+</div>
+
